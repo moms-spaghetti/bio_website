@@ -1,18 +1,28 @@
-/*
-create array
-create variable for working number
-fill array with numbers from 1 to 54
-select id + number from array 
-insert image location into src attribute
-loop thorugh all elements
+var imageTextTitle = [];
+var imageTextDesc = [];
 
-*/
+fetch('imgTextData.csv')
+  .then(response => response.text())
+  .then(line => {
 
-var workingNumber = 0;
-var numbers = [];
+    var lines = line.split('\n');
+    for(var i = 0; i < lines.length; i+=2){
+        imageTextTitle.push(lines[i]);
+        var j = i + 1;
+        imageTextDesc.push(lines[j]);
+    }
 
-for (var i = 1; i < 55; i++) {
-    workingNumber = i;
-    document.getElementById('img-' + i).setAttribute("src", "images/" + i + ".jpg");
-};
+    for (var i = 0; i < imageTextTitle.length; i++) {
+
+        var imgElement = document.getElementById('images');
+
+        var imgElementContent = '<div class="img-container" id="img-container-' + i + '"> \
+         <a href="#" onclick="return false;"><img id="img-' + i + '" src="images/' + i + '.jpg" alt=""> \
+         </a><div class="img-text"><h2 class="img-title">' + imageTextTitle[i] + '</h2> \
+         <p class="img-desc">' + imageTextDesc[i] + '</p></div></div>';
+
+        imgElement.insertAdjacentHTML('beforeend', imgElementContent);
+    }
+    
+  });
 
