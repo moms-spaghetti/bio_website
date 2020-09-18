@@ -102,13 +102,12 @@ a {
         width: 700px;
         margin: auto;
     }
-    
+
 }
 
 @media(min-width: 1050px) {
     main {
-        width: 1050px;
-        
+        width: 1050px;        
     }
 
 }
