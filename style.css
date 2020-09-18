@@ -39,6 +39,7 @@ h3 {
     text-align: center;
     justify-content: center;
     height: 168px;
+    width: 100%
 }
 
 img {
@@ -73,8 +74,8 @@ img {
 
 img:hover {
     -webkit-filter: brightness(30%);
-    transform: scale(1.6);
-    }
+    transform: scale(1.6) ;
+}
 
 .img-container:hover {
     color: #fff;
@@ -101,12 +102,15 @@ a {
         width: 700px;
         margin: auto;
     }
+    
 }
 
 @media(min-width: 1050px) {
     main {
         width: 1050px;
+        
     }
+
 }
 
 @media(min-width: 1400px) {

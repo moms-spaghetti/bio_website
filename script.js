@@ -14,6 +14,5 @@ var numbers = [];
 for (var i = 1; i < 55; i++) {
     workingNumber = i;
     document.getElementById('img-' + i).setAttribute("src", "images/" + i + ".jpg");
-}
-
+};
 
