@@ -1,5 +1,11 @@
 var imageTextTitle = [];
 var imageTextDesc = [];
+var days = ['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+
+function getDate() {
+  var date = new Date();
+  return date.getDay();
+}
 
 fetch('imgTextData.csv')
   .then(response => response.text())
@@ -51,4 +57,6 @@ fetch('imgTextData.csv')
       i = theRealI;
     };
 
+    document.getElementById('imgCount').innerHTML = imageTextTitle.length;
+    document.getElementById('day').innerHTML = days[getDate()];
   });
