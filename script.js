@@ -110,5 +110,3 @@ document.addEventListener('mouseover', function (event) {
     };
   }
 });
-
-

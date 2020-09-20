@@ -103,73 +103,73 @@ a {
         margin: auto;
     }
 
-#modal-container {
-  display: none;
-  position: fixed;
-  z-index: 1;
-  padding-top: 50px;  
-  left: 50%;
-  top: 50%; 
-  transform: translate(-50%, -50%);
-  width: 700px;
-  height: 720px;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.86);
-}
-#modal-content {
-  margin: auto;
-  display: block;
-  max-width: 600px;
-  max-height: 600px;
-}
+    #modal-container {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        padding-top: 50px;  
+        left: 50%;
+        top: 50%; 
+        transform: translate(-50%, -50%);
+        width: 700px;
+        height: 720px;
+        background-color: rgb(0,0,0);
+        background-color: rgba(0,0,0,0.86);
+    }
+    #modal-content {
+        margin: auto;
+        display: block;
+        max-width: 600px;
+        max-height: 600px;
+    }
 
-#modal-content:hover {
-    -webkit-filter: brightness(100%);
-    transform: none;
-}
+    #modal-content:hover {
+        -webkit-filter: brightness(100%);
+        transform: none;
+    }
 
-#modal-title {
-  margin: auto;
-  display: block;
-  width: 80%;
-  max-width: 600px;
-  text-align: center;
-  line-height: 1.4rem;
-  font-weight: 800;
-  color: #ccc;
-  padding-top: 10px;
-}
+    #modal-title {
+        margin: auto;
+        display: block;
+        width: 80%;
+        max-width: 600px;
+        text-align: center;
+        line-height: 1.4rem;
+        font-weight: 800;
+        color: #ccc;
+        padding-top: 10px;
+    }
 
-#modal-caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    font-weight: 200;
-    max-width: 600px;
-    text-align: center;
-    line-height: 1.4rem;
-    color: #ccc;
-    padding-top: 5px;
-  }
+    #modal-caption {
+        margin: auto;
+        display: block;
+        width: 80%;
+        font-weight: 200;
+        max-width: 600px;
+        text-align: center;
+        line-height: 1.4rem;
+        color: #ccc;
+        padding-top: 5px;
+    }
 
-.close {
-  position: fixed;
-  z-index: 2;
-  top: 9px;
-  right: 15px;
-  color: #f1f1f1;
-  font-size: 40px;
-  font-weight: bold;
-  transition: 0.3s;
-}
+    .close {
+        position: fixed;
+        z-index: 2;
+        top: 9px;
+        right: 15px;
+        color: #f1f1f1;
+        font-size: 40px;
+        font-weight: bold;
+        transition: 0.3s;
+    }
 
-.close:hover,
-.close:focus {
-  color: tomato;
-  text-decoration: none;
-  cursor: pointer;
-}
-}
+    .close:hover,
+    .close:focus {
+        color: tomato;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    }
 
 @media(min-width: 1050px) {
     main {
