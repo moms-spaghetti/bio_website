@@ -3,13 +3,13 @@
 I made this prior to joining the School of Code after learning basic Javascript, HTML and CSS.\
 <br/>
 [View Demo](https://moms-spaghetti-bio.netlify.app/)\
-<br/><br/>
+<br/>
 
 ## Details
 
-Prior to joining cohort 4 at the School of Code I built this website to utilise my basic skills in Javascript, HTML and CSS. In the future I intend to convert this to a React site with more functionality. Refreshing the page randomises image locations and the welcome text on my image is dynamic showing the image count and current day.
+Prior to joining cohort 4 at the School of Code I built this website to utilise my basic skills in Javascript, HTML and CSS. In the future I intend to convert this to a React site with more functionality. Refreshing the page randomises image locations and the welcome text on my image is dynamic showing the image count and current day. There are basic media queries and css to make the site more mobile friendly.
 
-<br/><br/>
+<br/>
 
 ## Built With
 
